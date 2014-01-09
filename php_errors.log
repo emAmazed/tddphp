@@ -1,0 +1,5 @@
+[09-Jan-2014 20:44:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20100525/php_intl.dll' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20100525/php_intl.dll, 9): image not found in Unknown on line 0
+[09-Jan-2014 20:44:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20100525/php_mysql.dll' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20100525/php_mysql.dll, 9): image not found in Unknown on line 0
+[09-Jan-2014 20:44:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20100525/php_mysqli.dll' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20100525/php_mysqli.dll, 9): image not found in Unknown on line 0
+[09-Jan-2014 20:44:28 UTC] PHP Warning:  require_once(../classes/log.php): failed to open stream: No such file or directory in /Users/emilie.ying/Sites/tddphp/tests/tc_log.php on line 3
+[09-Jan-2014 20:44:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../classes/log.php' (include_path='.:') in /Users/emilie.ying/Sites/tddphp/tests/tc_log.php on line 3
