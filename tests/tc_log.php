@@ -2,7 +2,7 @@
 require_once(dirname(__FILE__).'/simpletest/autorun.php');
 require_once('../classes/log.php');
 
-class TestOfLoggin extends UnitTestCase {
+class TestOfLogging extends UnitTestCase {
   function testFirstLogMessagesCreatesFileIfNonexistent() {
     @unlink(dirname(__FILE__).'/../temp/test.log');
     $log = new Log(dirname(__FILE__).'/../temp/test.log');
