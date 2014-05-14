@@ -1,6 +1,6 @@
 <?php
 require_once(dirname(__FILE__).'/simpletest/autorun.php');
-require_once('../classes/log.php');
+#require_once('../classes/log.php');
 
 class TestOfLogging extends UnitTestCase {
   function testFirstLogMessagesCreatesFileIfNonexistent() {
